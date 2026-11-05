@@ -2,28 +2,28 @@
 class Phv < Formula
   desc "Typed, PHP-like language for the web: run, serve, test and build"
   homepage "https://phv-lang.org"
-  version "0.9.1"
+  version "0.9.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/miyagawayuu/phv/releases/download/v0.9.1/phv-0.9.1-aarch64-apple-darwin.tar.gz"
-      sha256 "4c301dad3f58bb2fea80f039e37c5305da11c563afa73d1ab043fb24bfd2b0a7"
+      url "https://github.com/miyagawayuu/phv/releases/download/v0.9.2/phv-0.9.2-aarch64-apple-darwin.tar.gz"
+      sha256 "46c42aee62221f211d3c7142a1fbff8ec2aa752193744078e9501fc8070e7a24"
     end
     on_intel do
-      url "https://github.com/miyagawayuu/phv/releases/download/v0.9.1/phv-0.9.1-x86_64-apple-darwin.tar.gz"
-      sha256 "d5203d6a43a6050caf2d54b51d713d5d903f0bc85a6af5fe7fe2d54eb6a20e75"
+      url "https://github.com/miyagawayuu/phv/releases/download/v0.9.2/phv-0.9.2-x86_64-apple-darwin.tar.gz"
+      sha256 "97da6d92ff53e186495b66232676f02b86f1604bc79d143f30d04e3ee7bf3c6c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/miyagawayuu/phv/releases/download/v0.9.1/phv-0.9.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "1429c1a22c3775ebe7d6e10426ec2d90fb810ce563da23a277112cdec01fc485"
+      url "https://github.com/miyagawayuu/phv/releases/download/v0.9.2/phv-0.9.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "71256b322bcb46dc8b33fbfd1db33580654151b98b4666b66e1e53363d48a0f7"
     end
     on_intel do
-      url "https://github.com/miyagawayuu/phv/releases/download/v0.9.1/phv-0.9.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "34974ce81391e26fc5d78ab0807ff9601e15aa56cbfc33bc9c6cb6ae065cc4bd"
+      url "https://github.com/miyagawayuu/phv/releases/download/v0.9.2/phv-0.9.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a58abe903354a9d5bc676657eec5bd7349562f32d9c35d02b71efffebc7ee210"
     end
   end
 
